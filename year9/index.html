@@ -24,25 +24,19 @@
 
   <main class="container">
     <section class="hero">
-      <div class="kicker">Year 9</div>
-      <h1>Year 9 topics</h1>
-      <p class="lede">
-        We focus on working with collections of data in Python — the real world is rarely one value at a time.
-        (Sadly.)
-      </p>
-    </section>
+  <div class="kicker" data-year-kicker>Year 7</div>
+  <h1 data-year-title>Year 7 topics</h1>
+  <p class="lede" data-year-overview>
+    <!-- Filled by JSON -->
+  </p>
+</section>
 
-    <h2 class="section-title">Curriculum topic</h2>
-    <section class="grid" aria-label="Year 9 topics">
-      <a class="card" href="python-sequences-of-data.html">
-        <h3>Python programming with sequences of data</h3>
-        <p>Use strings and lists, loop through data, and build programs that manage collections reliably.</p>
-        <div class="meta">
-          <span class="pill"><span class="dot"></span> Data</span>
-          <span class="pill">Lists • Strings • Loops</span>
-        </div>
-      </a>
-    </section>
+
+ <h2 class="section-title">Curriculum topic</h2>
+<section class="grid" aria-label="Year topics" data-topic-grid>
+  <!-- Cards generated from topics.json -->
+</section>
+
 
     <footer class="footer">
       <div><a href="../index.html">← Back to Home</a></div>
@@ -50,5 +44,6 @@
   </main>
 
   <script src="../assets/js/site.js"></script>
+  <script src="../assets/js/topics-loader.js"></script>
 </body>
 </html>
