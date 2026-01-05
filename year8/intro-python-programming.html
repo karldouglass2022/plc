@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Year 8 • Introduction to Python Programming</title>
+  <title>Year 8 • Topic</title>
   <link rel="stylesheet" href="../assets/css/delta.css" />
 </head>
 <body>
@@ -24,54 +24,34 @@
 
   <main class="container">
     <section class="hero">
-      <div class="kicker">Year 8 • Topic</div>
-      <h1>Introduction to Python Programming</h1>
-      <p class="lede">
-        Python is a general-purpose programming language. We’ll use it to learn how programs store data,
-        make decisions, and repeat steps — like a robot with slightly better handwriting.
-      </p>
+      <div class="kicker" data-topic-kicker>Year 8 • Topic</div>
+      <h1 data-topic-title>Topic title</h1>
+      <p class="lede" data-topic-intro></p>
+      <div class="meta" style="margin-top:12px;" data-topic-tags></div>
     </section>
 
     <h2 class="section-title">What you will learn</h2>
     <section class="grid" aria-label="Learning goals">
       <div class="card">
         <h3>Learning goals</h3>
-        <p>
-          • Use variables to store and update values<br>
-          • Take input and produce clear output<br>
-          • Use selection (if/elif/else) for decisions<br>
-          • Use iteration (for/while) for repetition<br>
-          • Write readable code (naming, indentation, comments)<br>
-          • Debug common errors and explain fixes
-        </p>
+        <ul data-learning-goals style="margin:0; padding-left: 18px; color: rgba(255,255,255,0.75); line-height:1.55;">
+          <li>Loading…</li>
+        </ul>
       </div>
 
       <div class="card">
         <h3>Key vocabulary</h3>
-        <p>
-          <span class="pill"><span class="dot"></span> Variable</span>
-          <span class="pill">Data type</span>
-          <span class="pill">String</span>
-          <span class="pill">Integer</span>
-          <span class="pill">Boolean</span>
-          <span class="pill">Selection</span>
-          <span class="pill">Iteration</span>
-          <span class="pill">Syntax</span>
-          <span class="pill">Logic error</span>
-        </p>
+        <div data-topic-keywords></div>
         <p class="lede" style="margin-top:10px;">
-          “It doesn’t work” isn’t a bug report — we go from symptoms → cause → fix.
+          If you can explain the keywords clearly, you’re not just doing it — you understand it.
         </p>
       </div>
 
       <div class="card">
         <h3>How you’ll show mastery</h3>
-        <p>
-          • Build small programs (quiz, calculator, simple game)<br>
-          • Use selection + loops appropriately (not “just because”)<br>
-          • Trace code and predict outputs<br>
-          • Fix errors using evidence (not vibes)
-        </p>
+        <ul data-mastery style="margin:0; padding-left: 18px; color: rgba(255,255,255,0.75); line-height:1.55;">
+          <li>Loading…</li>
+        </ul>
       </div>
     </section>
 
@@ -81,5 +61,6 @@
   </main>
 
   <script src="../assets/js/site.js"></script>
+  <script src="../assets/js/topic-page-loader.js"></script>
 </body>
 </html>
