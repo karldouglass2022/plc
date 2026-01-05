@@ -24,25 +24,19 @@
 
   <main class="container">
     <section class="hero">
-      <div class="kicker">Year 8</div>
-      <h1>Year 8 topics</h1>
-      <p class="lede">
-        This is where we start programming properly: writing Python that takes input, makes decisions,
-        repeats actions, and produces outputs you can actually use.
-      </p>
-    </section>
+  <div class="kicker" data-year-kicker>Year 7</div>
+  <h1 data-year-title>Year 7 topics</h1>
+  <p class="lede" data-year-overview>
+    <!-- Filled by JSON -->
+  </p>
+</section>
+
 
     <h2 class="section-title">Curriculum topic</h2>
-    <section class="grid" aria-label="Year 8 topics">
-      <a class="card" href="intro-python-programming.html">
-        <h3>Introduction to Python Programming</h3>
-        <p>Learn the core building blocks: variables, selection, iteration, and tidy program structure.</p>
-        <div class="meta">
-          <span class="pill"><span class="dot"></span> Foundations</span>
-          <span class="pill">Input • Output • Debug</span>
-        </div>
-      </a>
-    </section>
+<section class="grid" aria-label="Year topics" data-topic-grid>
+  <!-- Cards generated from topics.json -->
+</section>
+
 
     <footer class="footer">
       <div><a href="../index.html">← Back to Home</a></div>
@@ -50,5 +44,6 @@
   </main>
 
   <script src="../assets/js/site.js"></script>
+  <script src="../assets/js/topics-loader.js"></script>
 </body>
 </html>
