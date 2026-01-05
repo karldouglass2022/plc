@@ -245,6 +245,21 @@ h1{
   line-height: 1.55;
 }
 
+/* Ensure JSON-filled lists are readable on the light theme */
+.card ul[data-learning-goals],
+.card ul[data-mastery]{
+  margin: 0;
+  padding-left: 18px;
+  color: var(--muted);
+  line-height: 1.55;
+}
+
+.card ul[data-learning-goals] li,
+.card ul[data-mastery] li{
+  margin: 6px 0;
+}
+
+
 /* Footer */
 .footer{
   margin-top: 34px;
