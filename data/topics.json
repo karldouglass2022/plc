@@ -12,7 +12,21 @@
           "slug": "developing-vector-graphics",
           "summary": "Create digital artwork using shapes, paths and layers — with a focus on precision and design choices.",
           "tags": ["Tools", "Layers", "Shapes", "Exporting"],
-          "keywords": ["vector", "raster", "path", "node", "stroke", "fill", "layer", "group"]
+          "intro": "Vector graphics are made from shapes and paths, so they stay sharp at any size. Perfect for logos, icons, and anything that shouldn’t turn into pixel soup.",
+          "keywords": ["vector", "raster", "path", "node", "stroke", "fill", "layer", "group"],
+          "learningGoals": [
+            "Use shapes and lines to build images",
+            "Edit paths/nodes to refine designs",
+            "Organise work using layers and grouping",
+            "Choose colours, fonts and alignment with purpose",
+            "Export graphics for different uses (web/print)"
+          ],
+          "mastery": [
+            "Create a logo/icon that meets a brief",
+            "Apply consistent colour + typography choices",
+            "Demonstrate clean layering and alignment",
+            "Export correctly (size, file type, transparent background)"
+          ]
         }
       ]
     },
@@ -27,7 +41,22 @@
           "slug": "intro-python-programming",
           "summary": "Learn the core building blocks: variables, selection, iteration, and tidy program structure.",
           "tags": ["Foundations", "Input", "Output", "Debug"],
-          "keywords": ["variable", "data type", "string", "integer", "boolean", "selection", "iteration", "syntax", "logic error"]
+          "intro": "Python is a general-purpose programming language. We’ll use it to learn how programs store data, make decisions, and repeat steps — like a robot with slightly better handwriting.",
+          "keywords": ["variable", "data type", "string", "integer", "boolean", "selection", "iteration", "syntax", "logic error"],
+          "learningGoals": [
+            "Use variables to store and update values",
+            "Take input and produce clear output",
+            "Use selection (if/elif/else) for decisions",
+            "Use iteration (for/while) for repetition",
+            "Write readable code (naming, indentation, comments)",
+            "Debug common errors and explain fixes"
+          ],
+          "mastery": [
+            "Build small programs (quiz, calculator, simple game)",
+            "Use selection + loops appropriately",
+            "Trace code and predict outputs",
+            "Fix errors using evidence (not vibes)"
+          ]
         }
       ]
     },
@@ -42,7 +71,22 @@
           "slug": "python-sequences-of-data",
           "summary": "Use strings and lists, loop through data, and build programs that manage collections reliably.",
           "tags": ["Data", "Lists", "Strings", "Loops"],
-          "keywords": ["sequence", "list", "string", "index", "iteration", "len()", "slice", "accumulator"]
+          "intro": "Sequences let you store and process multiple values: strings (characters) and lists (items). This is the step from “toy programs” to “useful programs”.",
+          "keywords": ["sequence", "list", "string", "index", "iteration", "len()", "slice", "accumulator"],
+          "learningGoals": [
+            "Create and use lists and strings",
+            "Access items by index (and avoid off-by-one chaos)",
+            "Use loops to process sequences",
+            "Use common sequence operations (len, in, slicing basics)",
+            "Build simple algorithms (searching, counting, totals)",
+            "Write code that’s readable and testable"
+          ],
+          "mastery": [
+            "Write programs that store many values (scores, names, readings)",
+            "Loop through sequences to compute results (max, min, average, counts)",
+            "Explain what an algorithm does step-by-step",
+            "Test using different data to prove it works"
+          ]
         }
       ]
     }
