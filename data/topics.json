@@ -1,94 +1,59 @@
 {
-  "siteTitle": "KS3 Computing",
-  "years": [
+  "title": "Developing vector graphics",
+  "slug": "developing-vector-graphics",
+  "summary": "Create digital artwork using shapes, paths and layers — with a focus on precision and design choices.",
+  "tags": ["Tools", "Layers", "Shapes", "Exporting"],
+  "intro": "Vector graphics are made from shapes and paths, so they stay sharp at any size. Perfect for logos, icons, and anything that shouldn’t turn into pixel soup.",
+  "keywords": ["vector", "raster", "path", "node", "stroke", "fill", "layer", "group"],
+  "learningGoals": [
+    "Use shapes and lines to build images",
+    "Edit paths/nodes to refine designs",
+    "Organise work using layers and grouping",
+    "Choose colours, fonts and alignment with purpose",
+    "Export graphics for different uses (web/print)"
+  ],
+  "mastery": [
+    "Create a logo/icon that meets a brief",
+    "Apply consistent colour + typography choices",
+    "Demonstrate clean layering and alignment",
+    "Export correctly (size, file type, transparent background)"
+  ],
+  "lessons": [
     {
-      "id": "year7",
-      "label": "Year 7",
-      "kicker": "Year 7",
-      "overview": "We kick off KS3 by learning how to create crisp, scalable graphics. Think “logo designer” energy.",
-      "topics": [
-        {
-          "title": "Developing vector graphics",
-          "slug": "developing-vector-graphics",
-          "summary": "Create digital artwork using shapes, paths and layers — with a focus on precision and design choices.",
-          "tags": ["Tools", "Layers", "Shapes", "Exporting"],
-          "intro": "Vector graphics are made from shapes and paths, so they stay sharp at any size. Perfect for logos, icons, and anything that shouldn’t turn into pixel soup.",
-          "keywords": ["vector", "raster", "path", "node", "stroke", "fill", "layer", "group"],
-          "learningGoals": [
-            "Use shapes and lines to build images",
-            "Edit paths/nodes to refine designs",
-            "Organise work using layers and grouping",
-            "Choose colours, fonts and alignment with purpose",
-            "Export graphics for different uses (web/print)"
-          ],
-          "mastery": [
-            "Create a logo/icon that meets a brief",
-            "Apply consistent colour + typography choices",
-            "Demonstrate clean layering and alignment",
-            "Export correctly (size, file type, transparent background)"
-          ]
-        }
-      ]
+      "week": 1,
+      "title": "Using vector tools to draw and modify shapes",
+      "outcome": "I can use software to draw and modify vector shapes.",
+      "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/developing-vector-graphics/lessons/using-vector-tools-to-draw-and-modify-shapes/overview"
     },
     {
-      "id": "year8",
-      "label": "Year 8",
-      "kicker": "Year 8",
-      "overview": "This is where we start programming properly: writing Python that takes input, makes decisions, repeats actions, and produces outputs you can actually use.",
-      "topics": [
-        {
-          "title": "Introduction to Python Programming",
-          "slug": "intro-python-programming",
-          "summary": "Learn the core building blocks: variables, selection, iteration, and tidy program structure.",
-          "tags": ["Foundations", "Input", "Output", "Debug"],
-          "intro": "Python is a general-purpose programming language. We’ll use it to learn how programs store data, make decisions, and repeat steps — like a robot with slightly better handwriting.",
-          "keywords": ["variable", "data type", "string", "integer", "boolean", "selection", "iteration", "syntax", "logic error"],
-          "learningGoals": [
-            "Use variables to store and update values",
-            "Take input and produce clear output",
-            "Use selection (if/elif/else) for decisions",
-            "Use iteration (for/while) for repetition",
-            "Write readable code (naming, indentation, comments)",
-            "Debug common errors and explain fixes"
-          ],
-          "mastery": [
-            "Build small programs (quiz, calculator, simple game)",
-            "Use selection + loops appropriately",
-            "Trace code and predict outputs",
-            "Fix errors using evidence (not vibes)"
-          ]
-        }
-      ]
+      "week": 2,
+      "title": "Working with multiple objects",
+      "outcome": "I can work with multiple objects to create a vector drawing.",
+      "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/developing-vector-graphics/lessons/working-with-multiple-objects/overview"
     },
     {
-      "id": "year9",
-      "label": "Year 9",
-      "kicker": "Year 9",
-      "overview": "We focus on working with collections of data in Python — the real world is rarely one value at a time. (Sadly.)",
-      "topics": [
-        {
-          "title": "Python programming with sequences of data",
-          "slug": "python-sequences-of-data",
-          "summary": "Use strings and lists, loop through data, and build programs that manage collections reliably.",
-          "tags": ["Data", "Lists", "Strings", "Loops"],
-          "intro": "Sequences let you store and process multiple values: strings (characters) and lists (items). This is the step from “toy programs” to “useful programs”.",
-          "keywords": ["sequence", "list", "string", "index", "iteration", "len()", "slice", "accumulator"],
-          "learningGoals": [
-            "Create and use lists and strings",
-            "Access items by index (and avoid off-by-one chaos)",
-            "Use loops to process sequences",
-            "Use common sequence operations (len, in, slicing basics)",
-            "Build simple algorithms (searching, counting, totals)",
-            "Write code that’s readable and testable"
-          ],
-          "mastery": [
-            "Write programs that store many values (scores, names, readings)",
-            "Loop through sequences to compute results (max, min, average, counts)",
-            "Explain what an algorithm does step-by-step",
-            "Test using different data to prove it works"
-          ]
-        }
-      ]
+      "week": 3,
+      "title": "Vector paths",
+      "outcome": "I can edit the paths of vector shapes to create unique shapes.",
+      "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/developing-vector-graphics/lessons/vector-paths/overview"
+    },
+    {
+      "week": 4,
+      "title": "Developing a vector product",
+      "outcome": "I can plan and design a vector product for a given project.",
+      "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/developing-vector-graphics/lessons/developing-a-vector-product/overview"
+    },
+    {
+      "week": 5,
+      "title": "Vector markup",
+      "outcome": "I can investigate the markup of a vector graphic and change an object by modifying its markup.",
+      "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/developing-vector-graphics/lessons/vector-markup/overview"
+    },
+    {
+      "week": 6,
+      "title": "Comparing bitmap and vector graphics",
+      "outcome": "I can compare vector and bitmap images and consider which image type best suits which situation.",
+      "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/developing-vector-graphics/lessons/comparing-bitmap-and-vector-graphics/overview"
     }
   ]
 }
