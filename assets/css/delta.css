@@ -1,0 +1,206 @@
+:root{
+  --bg: #0b1020;
+  --panel: rgba(255,255,255,0.06);
+  --panel-strong: rgba(255,255,255,0.10);
+  --text: rgba(255,255,255,0.90);
+  --muted: rgba(255,255,255,0.70);
+  --faint: rgba(255,255,255,0.55);
+  --accent: #7dd3fc;      /* icy blue */
+  --accent2: #a78bfa;     /* soft purple */
+  --line: rgba(255,255,255,0.12);
+  --shadow: 0 12px 30px rgba(0,0,0,0.35);
+  --radius: 18px;
+  --radius2: 24px;
+  --max: 1100px;
+  --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --sans: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+}
+
+*{ box-sizing: border-box; }
+html,body{ height:100%; }
+body{
+  margin:0;
+  font-family: var(--sans);
+  color: var(--text);
+  background:
+    radial-gradient(1200px 600px at 15% 10%, rgba(125,211,252,0.18), transparent 55%),
+    radial-gradient(900px 500px at 85% 20%, rgba(167,139,250,0.18), transparent 60%),
+    radial-gradient(900px 700px at 50% 95%, rgba(34,197,94,0.10), transparent 60%),
+    var(--bg);
+}
+
+a{ color:inherit; text-decoration:none; }
+a:hover{ text-decoration: underline; text-decoration-color: rgba(125,211,252,0.65); }
+
+.container{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 26px 18px 70px;
+}
+
+.topbar{
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(10px);
+  background: rgba(11,16,32,0.70);
+  border-bottom: 1px solid var(--line);
+}
+
+.topbar-inner{
+  max-width: var(--max);
+  margin: 0 auto;
+  padding: 14px 18px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap: 14px;
+}
+
+.brand{
+  display:flex;
+  align-items:center;
+  gap: 10px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+}
+
+.brand-badge{
+  width: 32px;
+  height: 32px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, rgba(125,211,252,0.95), rgba(167,139,250,0.95));
+  box-shadow: var(--shadow);
+}
+
+.nav{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.nav a{
+  padding: 8px 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.03);
+}
+
+.nav a.active{
+  border-color: rgba(125,211,252,0.55);
+  background: rgba(125,211,252,0.10);
+}
+
+.hero{
+  margin-top: 22px;
+  padding: 20px 18px;
+  border: 1px solid var(--line);
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0.03));
+  border-radius: var(--radius2);
+  box-shadow: var(--shadow);
+}
+
+.kicker{
+  font-family: var(--mono);
+  color: var(--muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+
+h1{
+  margin: 10px 0 8px;
+  font-size: clamp(1.7rem, 3.2vw, 2.35rem);
+  line-height: 1.12;
+}
+
+.lede{
+  margin: 0;
+  color: var(--muted);
+  max-width: 72ch;
+  line-height: 1.55;
+}
+
+.section-title{
+  margin: 26px 0 10px;
+  font-size: 1.15rem;
+  color: rgba(255,255,255,0.88);
+}
+
+.grid{
+  margin-top: 18px;
+  display:grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+
+.card{
+  grid-column: span 12;
+  padding: 16px 16px 14px;
+  border: 1px solid var(--line);
+  background: rgba(255,255,255,0.05);
+  border-radius: var(--radius);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+  transition: transform 120ms ease, background 120ms ease, border-color 120ms ease;
+}
+
+.card:hover{
+  transform: translateY(-2px);
+  background: rgba(255,255,255,0.07);
+  border-color: rgba(125,211,252,0.35);
+}
+
+.card h3{
+  margin: 0 0 8px;
+  font-size: 1.05rem;
+}
+
+.card p{
+  margin: 0 0 10px;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.meta{
+  display:flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items:center;
+  color: var(--faint);
+  font-size: 0.92rem;
+}
+
+.pill{
+  display:inline-flex;
+  align-items:center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: rgba(0,0,0,0.12);
+}
+
+.pill .dot{
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px rgba(125,211,252,0.12);
+}
+
+.footer{
+  margin-top: 34px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  color: var(--faint);
+  font-size: 0.92rem;
+}
+
+@media (min-width: 720px){
+  .card{ grid-column: span 6; }
+}
+
+@media (min-width: 980px){
+  .card{ grid-column: span 4; }
+}

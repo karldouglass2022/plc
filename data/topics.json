@@ -1,0 +1,50 @@
+{
+  "siteTitle": "KS3 Computing",
+  "years": [
+    {
+      "id": "year7",
+      "label": "Year 7",
+      "kicker": "Year 7",
+      "overview": "We kick off KS3 by learning how to create crisp, scalable graphics. Think “logo designer” energy.",
+      "topics": [
+        {
+          "title": "Developing vector graphics",
+          "slug": "developing-vector-graphics",
+          "summary": "Create digital artwork using shapes, paths and layers — with a focus on precision and design choices.",
+          "tags": ["Tools", "Layers", "Shapes", "Exporting"],
+          "keywords": ["vector", "raster", "path", "node", "stroke", "fill", "layer", "group"]
+        }
+      ]
+    },
+    {
+      "id": "year8",
+      "label": "Year 8",
+      "kicker": "Year 8",
+      "overview": "This is where we start programming properly: writing Python that takes input, makes decisions, repeats actions, and produces outputs you can actually use.",
+      "topics": [
+        {
+          "title": "Introduction to Python Programming",
+          "slug": "intro-python-programming",
+          "summary": "Learn the core building blocks: variables, selection, iteration, and tidy program structure.",
+          "tags": ["Foundations", "Input", "Output", "Debug"],
+          "keywords": ["variable", "data type", "string", "integer", "boolean", "selection", "iteration", "syntax", "logic error"]
+        }
+      ]
+    },
+    {
+      "id": "year9",
+      "label": "Year 9",
+      "kicker": "Year 9",
+      "overview": "We focus on working with collections of data in Python — the real world is rarely one value at a time. (Sadly.)",
+      "topics": [
+        {
+          "title": "Python programming with sequences of data",
+          "slug": "python-sequences-of-data",
+          "summary": "Use strings and lists, loop through data, and build programs that manage collections reliably.",
+          "tags": ["Data", "Lists", "Strings", "Loops"],
+          "keywords": ["sequence", "list", "string", "index", "iteration", "len()", "slice", "accumulator"]
+        }
+      ]
+    }
+  ]
+}
