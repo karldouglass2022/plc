@@ -114,7 +114,45 @@
             "Trace code and predict outputs",
             "Fix errors using evidence rather than guesswork"
           ],
-          "lessons": []
+          "lessons": [
+  {
+    "week": 1,
+    "title": "Writing a text-based program",
+    "outcome": "I can create a text-based program from an algorithm that includes input and output.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/introduction-to-python-programming/lessons/writing-a-text-based-program/overview"
+  },
+  {
+    "week": 2,
+    "title": "Working with numerical inputs",
+    "outcome": "I can use arithmetic expressions to calculate values and store these values in variables in a program.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/introduction-to-python-programming/lessons/working-with-numerical-inputs/overview"
+  },
+  {
+    "week": 3,
+    "title": "Using selection",
+    "outcome": "I can write selection statements that make decisions about which path a program will follow.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/introduction-to-python-programming/lessons/using-selection/overview"
+  },
+  {
+    "week": 4,
+    "title": "Selection with multiple paths",
+    "outcome": "I can write selection statements to provide three or more paths to follow within a program.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/introduction-to-python-programming/lessons/selection-with-multiple-paths/overview"
+  },
+  {
+    "week": 5,
+    "title": "Iteration using while loops",
+    "outcome": "I can use iteration to repeat sequences of code in a program and use a flag to stop a loop from running.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/introduction-to-python-programming/lessons/iteration-using-while-loops/overview"
+  },
+  {
+    "week": 6,
+    "title": "Building a program using control structures",
+    "outcome": "I can combine sequence, selection and iteration to build a program that uses complex conditions.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-8/units/introduction-to-python-programming/lessons/building-a-program-using-control-structures/overview"
+  }
+]
+
         }
       ]
     },
