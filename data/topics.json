@@ -191,7 +191,45 @@
             "Explain algorithms step-by-step",
             "Test programs using different data sets"
           ],
-          "lessons": []
+          "lessons": [
+  {
+    "week": 1,
+    "title": "Creating lists in Python",
+    "outcome": "I can create a list in Python and use selection to access and display list items.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-9/units/python-programming-with-sequences-of-data/lessons/creating-lists-in-python/overview"
+  },
+  {
+    "week": 2,
+    "title": "Python list operations",
+    "outcome": "I can add and remove items and sort data held in a list.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-9/units/python-programming-with-sequences-of-data/lessons/python-list-operations/overview"
+  },
+  {
+    "week": 3,
+    "title": "Iterating through data structures",
+    "outcome": "I can use iteration to repeatedly add items to lists and check the contents of a string.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-9/units/python-programming-with-sequences-of-data/lessons/iterating-through-data-structures/overview"
+  },
+  {
+    "week": 4,
+    "title": "Using for loops to iterate data structures",
+    "outcome": "I can use a for loop to inspect every element of a list.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-9/units/python-programming-with-sequences-of-data/lessons/using-for-loops-to-iterate-data-structures/overview"
+  },
+  {
+    "week": 5,
+    "title": "Mathematical operations in data structures",
+    "outcome": "I can perform a range of mathematical operations on list items and return a result.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-9/units/python-programming-with-sequences-of-data/lessons/mathematical-operations-in-data-structures/overview"
+  },
+  {
+    "week": 6,
+    "title": "Data structure projects in Python",
+    "outcome": "I can apply my understanding of data structures and iteration to investigate a problem.",
+    "sourceUrl": "https://www.thenational.academy/pupils/programmes/computing-secondary-year-9/units/python-programming-with-sequences-of-data/lessons/data-structure-projects-in-python"
+  }
+]
+
         }
       ]
     }
