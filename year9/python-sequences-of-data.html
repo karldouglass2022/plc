@@ -3,70 +3,93 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Year 9 • Topic</title>
+  <title>Year 9 • Python programming with sequences of data</title>
+
+  <!-- Site styling (Binary Explainers-style template) -->
   <link rel="stylesheet" href="../assets/css/delta.css" />
 </head>
+
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="brand">
-        <div class="brand-badge" aria-hidden="true"></div>
-        <div>KS3 Computing</div>
+  <div class="page">
+    <!-- HEADER (Binary Explainers structure) -->
+    <header>
+      <div class="header-inner">
+        <div class="brand-block">
+          <div class="brand-logo-pill">
+            <img src="../assets/img/computing.png" alt="Computing logo" class="brand-logo" />
+          </div>
+          <div class="brand-text">
+            DELTA Academies Trust
+            <span>KS3 Computing – Curriculum Overview</span>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Primary">
+          <a href="../index.html" class="nav-home">Home</a>
+          <a href="../year7/index.html" class="nav-y7">Year 7</a>
+          <a href="../year8/index.html" class="nav-y8">Year 8</a>
+          <a href="../year9/index.html" class="nav-y9">Year 9</a>
+        </nav>
       </div>
-      <nav class="nav" aria-label="Primary">
-        <a href="../index.html">Home</a>
-        <a href="../year7/index.html">Year 7</a>
-        <a href="../year8/index.html">Year 8</a>
-        <a href="../year9/index.html">Year 9</a>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="container">
-    <section class="hero">
-      <div class="kicker" data-topic-kicker>Year 9 • Topic</div>
-      <h1 data-topic-title>Topic title</h1>
-      <p class="lede" data-topic-intro></p>
-      <div class="meta" style="margin-top:12px;" data-topic-tags></div>
-    </section>
+    <!-- MAIN -->
+    <main>
+      <div class="app-shell">
+        <!-- Topic hero (auto-filled by topic-page-loader.js) -->
+        <section class="hero" aria-label="Topic overview">
+          <div class="kicker" data-topic-kicker>Year 9 • Topic</div>
+          <h1 data-topic-title>Python programming with sequences of data</h1>
+          <p class="lede" data-topic-intro></p>
+          <div class="meta" style="margin-top: 0.75rem;" data-topic-tags></div>
+        </section>
 
-    <h2 class="section-title">What you will learn</h2>
-    <section class="grid" aria-label="Learning goals">
-      <div class="card">
-        <h3>Learning goals</h3>
-<ul data-learning-goals>
-  <li>Loading…</li>
-</ul>
+        <!-- What you will learn -->
+        <h2 class="section-title">What you will learn</h2>
+        <section class="grid" aria-label="Learning goals">
+          <div class="card">
+            <h3>Learning goals</h3>
+            <ul data-learning-goals>
+              <li>Loading…</li>
+            </ul>
+          </div>
 
+          <div class="card">
+            <h3>Key vocabulary</h3>
+            <div class="meta" data-topic-keywords></div>
+            <p class="lede" style="margin-top: 0.5rem;">
+              If you can explain the keywords clearly, you’re not just doing it — you understand it.
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>How you’ll show mastery</h3>
+            <ul data-mastery>
+              <li>Loading…</li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Weekly breakdown -->
+        <h2 class="section-title">Weekly lesson breakdown</h2>
+        <section class="grid" aria-label="Weekly breakdown" data-lessons-grid>
+          <!-- Lesson cards injected here by topic-page-loader.js -->
+        </section>
+
+        <!-- Back link -->
+        <div>
+          <a href="index.html">← Back to Year 9 topics</a>
+        </div>
       </div>
+    </main>
 
-      <div class="card">
-        <h3>Key vocabulary</h3>
-        <div data-topic-keywords></div>
-        <p class="lede" style="margin-top:10px;">
-          If you can explain the keywords clearly, you’re not just doing it — you understand it.
-        </p>
-      </div>
-
-      <div class="card">
-        <h3>How you’ll show mastery</h3>
-<ul data-mastery>
-  <li>Loading…</li>
-</ul>
-
-      </div>
-    </section>
-<h2 class="section-title">Weekly lesson breakdown</h2>
-
-<section class="grid" aria-label="Weekly breakdown" data-lessons-grid>
-  <!-- Lesson cards injected here by topic-page-loader.js -->
-</section>
-
-    <footer class="footer">
-      <div><a href="index.html">← Back to Year 9 topics</a></div>
+    <!-- FOOTER -->
+    <footer>
+      KS3 Computing – curriculum overview and weekly lesson breakdowns.
     </footer>
-  </main>
+  </div>
 
+  <!-- Scripts -->
   <script src="../assets/js/site.js"></script>
   <script src="../assets/js/topic-page-loader.js"></script>
 </body>
