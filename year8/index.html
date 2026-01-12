@@ -4,45 +4,68 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Year 8 • KS3 Computing</title>
+
+  <!-- Site styling (Binary Explainers-style template) -->
   <link rel="stylesheet" href="../assets/css/delta.css" />
 </head>
+
 <body>
-  <header class="topbar">
-    <div class="topbar-inner">
-      <div class="brand">
-        <div class="brand-badge" aria-hidden="true"></div>
-        <div>KS3 Computing</div>
+  <div class="page">
+    <!-- HEADER (Binary Explainers structure) -->
+    <header>
+      <div class="header-inner">
+        <div class="brand-block">
+          <div class="brand-logo-pill">
+            <img src="../assets/img/computing.png" alt="Computing logo" class="brand-logo" />
+          </div>
+          <div class="brand-text">
+            DELTA Academies Trust
+            <span>KS3 Computing – Curriculum Overview</span>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="Primary">
+          <a href="../index.html" class="nav-home">Home</a>
+          <a href="../year7/index.html" class="nav-y7">Year 7</a>
+          <a href="../year8/index.html" class="nav-y8">Year 8</a>
+          <a href="../year9/index.html" class="nav-y9">Year 9</a>
+        </nav>
       </div>
-      <nav class="nav" aria-label="Primary">
-        <a href="../index.html">Home</a>
-        <a href="../year7/index.html">Year 7</a>
-        <a href="../year8/index.html">Year 8</a>
-        <a href="../year9/index.html">Year 9</a>
-      </nav>
-    </div>
-  </header>
+    </header>
 
-  <main class="container">
-    <section class="hero">
-  <div class="kicker" data-year-kicker>Year 7</div>
-  <h1 data-year-title>Year 7 topics</h1>
-  <p class="lede" data-year-overview>
-    <!-- Filled by JSON -->
-  </p>
-</section>
+    <!-- MAIN -->
+    <main>
+      <div class="app-shell">
+        <!-- Hero / Overview -->
+        <section class="hero" aria-label="Year overview">
+          <div class="kicker" data-year-kicker>Year 8</div>
+          <h1 data-year-title>Year 8 topics</h1>
+          <p class="lede" data-year-overview>
+            <!-- Loaded from topics.json -->
+          </p>
+        </section>
 
+        <!-- Topics -->
+        <h2 class="section-title">Curriculum topic</h2>
 
-    <h2 class="section-title">Curriculum topic</h2>
-<section class="grid" aria-label="Year topics" data-topic-grid>
-  <!-- Cards generated from topics.json -->
-</section>
+        <section class="grid" aria-label="Year 8 topics" data-topic-grid>
+          <!-- Topic cards injected here by topics-loader.js -->
+        </section>
 
+        <!-- Optional in-shell back link (keeps footer clean) -->
+        <div>
+          <a href="../index.html">← Back to Home</a>
+        </div>
+      </div>
+    </main>
 
-    <footer class="footer">
-      <div><a href="../index.html">← Back to Home</a></div>
+    <!-- FOOTER -->
+    <footer>
+      KS3 Computing – curriculum overview and weekly lesson breakdowns.
     </footer>
-  </main>
+  </div>
 
+  <!-- Scripts (keep paths the same for JSON loaders) -->
   <script src="../assets/js/site.js"></script>
   <script src="../assets/js/topics-loader.js"></script>
 </body>
